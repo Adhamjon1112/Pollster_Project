@@ -26,7 +26,12 @@ SECRET_KEY = "django-insecure-*7tquisb=-w6xe=*%yac$etvm@m))ce4po96+4g=)u$u5c1)l(
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['/opt/render/project/src',
+ '/opt/render/project/src/.venv/bin',
+ '/usr/local/lib/python311.zip',
+ '/usr/local/lib/python3.11',
+ '/usr/local/lib/python3.11/lib-dynload',
+ '/opt/render/project/src/.venv/lib/python3.11/site-packages']
 
 
 # Application definition

@@ -26,7 +26,7 @@ SECRET_KEY = "django-insecure-*7tquisb=-w6xe=*%yac$etvm@m))ce4po96+4g=)u$u5c1)l(
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['pollster-project.onrender.com']
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
